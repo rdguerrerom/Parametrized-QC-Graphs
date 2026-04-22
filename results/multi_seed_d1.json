@@ -1,0 +1,746 @@
+{
+  "name": "multi_seed::pqcgraphs.experiments.exp_d1_tfim_scaling.run",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "kwargs": {
+    "n_values": [
+      4,
+      6,
+      8
+    ],
+    "n_iters": 15,
+    "population_size": 3,
+    "theta_gd_steps": 40
+  },
+  "per_seed": {
+    "0": {
+      "name": "D1_tfim_scaling",
+      "task": "TFIM_g1_OBC",
+      "n_values": [
+        4,
+        6,
+        8
+      ],
+      "topology_family": "line (nearest-neighbour)",
+      "seed": 0,
+      "rows": [
+        {
+          "n": 4,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -4.4844167879328305,
+          "E_exact": -4.7587704831436,
+          "rel_error_vs_exact": 0.05765222260299764,
+          "final_potential": 4.011595278963465,
+          "delta_nash_final": 0.09999999999999998,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.13586372919822648,
+              "weighted": 0.027172745839645296,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 4.48440573120368,
+              "weighted": 4.48440573120368,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 8.0,
+              "weighted": -0.8,
+              "sign": -1
+            },
+            "Phi": 4.011578477043325
+          },
+          "n_ops": 9,
+          "depth": 4,
+          "n_params": 5,
+          "gate_counts": {
+            "h": 4,
+            "rzz": 2,
+            "rx": 3
+          },
+          "wall_time_s": 141.28914250000003,
+          "mean_iter_s": 9.419276166666668
+        },
+        {
+          "n": 6,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -6.720481004816049,
+          "E_exact": -7.2962298105588,
+          "rel_error_vs_exact": 0.07891045384967878,
+          "final_potential": 6.047102325457946,
+          "delta_nash_final": 0.19999999999999996,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.13209518734840217,
+              "weighted": 0.026419037469680436,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 6.72044495230776,
+              "weighted": 6.72044495230776,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 10.0,
+              "weighted": -1.0,
+              "sign": -1
+            },
+            "Phi": 6.0468639897774406
+          },
+          "n_ops": 13,
+          "depth": 4,
+          "n_params": 7,
+          "gate_counts": {
+            "h": 6,
+            "rzz": 3,
+            "rx": 4
+          },
+          "wall_time_s": 309.529612722,
+          "mean_iter_s": 20.6353075148
+        },
+        {
+          "n": 8,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -8.956479955191256,
+          "E_exact": -9.8379514474594,
+          "rel_error_vs_exact": 0.08959908950310783,
+          "final_potential": 8.028063923001056,
+          "delta_nash_final": 0.20000000000000018,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8181818181818182,
+              "weighted": 0.24545454545454545,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.13064711177627603,
+              "weighted": 0.026129422355255207,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 8.956479955191256,
+              "weighted": 8.956479955191256,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 12.0,
+              "weighted": -1.2000000000000002,
+              "sign": -1
+            },
+            "Phi": 8.028063923001056
+          },
+          "n_ops": 19,
+          "depth": 4,
+          "n_params": 11,
+          "gate_counts": {
+            "h": 8,
+            "rzz": 4,
+            "rx": 7
+          },
+          "wall_time_s": 454.09683453599996,
+          "mean_iter_s": 30.273122302399997
+        }
+      ],
+      "total_wall_s": 907.0392532779999
+    },
+    "1": {
+      "name": "D1_tfim_scaling",
+      "task": "TFIM_g1_OBC",
+      "n_values": [
+        4,
+        6,
+        8
+      ],
+      "topology_family": "line (nearest-neighbour)",
+      "seed": 1,
+      "rows": [
+        {
+          "n": 4,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -4.484414288650882,
+          "E_exact": -4.7587704831436,
+          "rel_error_vs_exact": 0.05765274779788934,
+          "final_potential": 4.011783991171721,
+          "delta_nash_final": 0.02075187990207703,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.135571338611216,
+              "weighted": 0.027114267722243204,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 4.48442540660535,
+              "weighted": 4.48442540660535,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 8.0,
+              "weighted": -0.8,
+              "sign": -1
+            },
+            "Phi": 4.011539674327594
+          },
+          "n_ops": 9,
+          "depth": 4,
+          "n_params": 5,
+          "gate_counts": {
+            "h": 4,
+            "rzz": 2,
+            "rx": 3
+          },
+          "wall_time_s": 145.90537370399989,
+          "mean_iter_s": 9.727024913599992
+        },
+        {
+          "n": 6,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -6.720381134058828,
+          "E_exact": -7.2962298105588,
+          "rel_error_vs_exact": 0.07892414184468641,
+          "final_potential": 6.009673727713679,
+          "delta_nash_final": 0.005406262803019875,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.875,
+              "weighted": 0.2625,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.1339629682742565,
+              "weighted": 0.0267925936548513,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 6.720381134058828,
+              "weighted": 6.720381134058828,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 10.0,
+              "weighted": -1.0,
+              "sign": -1
+            },
+            "Phi": 6.009673727713679
+          },
+          "n_ops": 14,
+          "depth": 4,
+          "n_params": 8,
+          "gate_counts": {
+            "h": 6,
+            "rzz": 3,
+            "rx": 5
+          },
+          "wall_time_s": 267.50136157999987,
+          "mean_iter_s": 17.833424105333325
+        },
+        {
+          "n": 8,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -9.20489756541935,
+          "E_exact": -9.8379514474594,
+          "rel_error_vs_exact": 0.06434814050678539,
+          "final_potential": 8.11534971783245,
+          "delta_nash_final": 0.02307692307692305,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.9230769230769231,
+              "weighted": 0.27692307692307694,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.16707068673375522,
+              "weighted": 0.03341413734675105,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 9.20485503813597,
+              "weighted": 9.20485503813597,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 14.0,
+              "weighted": -1.4000000000000001,
+              "sign": -1
+            },
+            "Phi": 8.115192252405796
+          },
+          "n_ops": 21,
+          "depth": 4,
+          "n_params": 13,
+          "gate_counts": {
+            "h": 8,
+            "rzz": 5,
+            "rx": 8
+          },
+          "wall_time_s": 404.6990085770001,
+          "mean_iter_s": 26.97993390513334
+        }
+      ],
+      "total_wall_s": 820.213448427
+    },
+    "2": {
+      "name": "D1_tfim_scaling",
+      "task": "TFIM_g1_OBC",
+      "n_values": [
+        4,
+        6,
+        8
+      ],
+      "topology_family": "line (nearest-neighbour)",
+      "seed": 2,
+      "rows": [
+        {
+          "n": 4,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -4.484405334200697,
+          "E_exact": -4.7587704831436,
+          "rel_error_vs_exact": 0.057654629470942624,
+          "final_potential": 4.011588205254504,
+          "delta_nash_final": 0.09999999999999998,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.13591435526903245,
+              "weighted": 0.02718287105380649,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 4.484405334200697,
+              "weighted": 4.484405334200697,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 8.0,
+              "weighted": -0.8,
+              "sign": -1
+            },
+            "Phi": 4.011588205254504
+          },
+          "n_ops": 9,
+          "depth": 4,
+          "n_params": 5,
+          "gate_counts": {
+            "h": 4,
+            "rzz": 2,
+            "rx": 3
+          },
+          "wall_time_s": 146.326351532,
+          "mean_iter_s": 9.755090102133332
+        },
+        {
+          "n": 6,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -6.708155301703027,
+          "E_exact": -7.2962298105588,
+          "rel_error_vs_exact": 0.08059977880695812,
+          "final_potential": 6.033428386137033,
+          "delta_nash_final": 0.033333333333333354,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.6666666666666666,
+              "weighted": 0.19999999999999998,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.12587519093758584,
+              "weighted": 0.02517503818751717,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 6.7081644047144735,
+              "weighted": 6.7081644047144735,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 9.0,
+              "weighted": -0.9,
+              "sign": -1
+            },
+            "Phi": 6.03333944290199
+          },
+          "n_ops": 15,
+          "depth": 3,
+          "n_params": 9,
+          "gate_counts": {
+            "h": 6,
+            "rzz": 3,
+            "rx": 6
+          },
+          "wall_time_s": 257.52196544699973,
+          "mean_iter_s": 17.168131029799984
+        },
+        {
+          "n": 8,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -8.956496873394034,
+          "E_exact": -9.8379514474594,
+          "rel_error_vs_exact": 0.08959736981554191,
+          "final_potential": 8.052727690677965,
+          "delta_nash_final": 0.010375939951038467,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.9,
+              "weighted": 0.27,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.1311540864196518,
+              "weighted": 0.02623081728393036,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 8.956496873394034,
+              "weighted": 8.956496873394034,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 12.0,
+              "weighted": -1.2000000000000002,
+              "sign": -1
+            },
+            "Phi": 8.052727690677965
+          },
+          "n_ops": 18,
+          "depth": 4,
+          "n_params": 10,
+          "gate_counts": {
+            "h": 8,
+            "rzz": 4,
+            "rx": 6
+          },
+          "wall_time_s": 448.1455426389998,
+          "mean_iter_s": 29.876369509266656
+        }
+      ],
+      "total_wall_s": 854.0054799730001
+    },
+    "3": {
+      "name": "D1_tfim_scaling",
+      "task": "TFIM_g1_OBC",
+      "n_values": [
+        4,
+        6,
+        8
+      ],
+      "topology_family": "line (nearest-neighbour)",
+      "seed": 3,
+      "rows": [
+        {
+          "n": 4,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -4.472125411187339,
+          "E_exact": -4.7587704831436,
+          "rel_error_vs_exact": 0.06023511177343133,
+          "final_potential": 4.09740463332231,
+          "delta_nash_final": 0.20000000000000007,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.1263961106748555,
+              "weighted": 0.025279222134971104,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 4.472125411187339,
+              "weighted": 4.472125411187339,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 7.0,
+              "weighted": -0.7000000000000001,
+              "sign": -1
+            },
+            "Phi": 4.09740463332231
+          },
+          "n_ops": 8,
+          "depth": 3,
+          "n_params": 4,
+          "gate_counts": {
+            "h": 4,
+            "rzz": 2,
+            "rx": 2
+          },
+          "wall_time_s": 167.9561664140001,
+          "mean_iter_s": 11.197077760933341
+        },
+        {
+          "n": 6,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -6.7204861533272595,
+          "E_exact": -7.2962298105588,
+          "rel_error_vs_exact": 0.07890974820973268,
+          "final_potential": 5.987105250363705,
+          "delta_nash_final": 0.030000000000000027,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8,
+              "weighted": 0.24,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.13221753962730215,
+              "weighted": 0.026443507925460432,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 6.720458960973658,
+              "weighted": 6.720458960973658,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 10.0,
+              "weighted": -1.0,
+              "sign": -1
+            },
+            "Phi": 5.986902468899118
+          },
+          "n_ops": 16,
+          "depth": 4,
+          "n_params": 10,
+          "gate_counts": {
+            "h": 6,
+            "rzz": 3,
+            "rx": 6,
+            "ry": 1
+          },
+          "wall_time_s": 309.7223811680001,
+          "mean_iter_s": 20.64815874453334
+        },
+        {
+          "n": 8,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -8.968805064834847,
+          "E_exact": -9.8379514474594,
+          "rel_error_vs_exact": 0.08834627689172075,
+          "final_potential": 8.04605015118062,
+          "delta_nash_final": 0.010368888980596291,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8333333333333334,
+              "weighted": 0.25,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.13505156772469665,
+              "weighted": 0.02701031354493933,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 8.968803903155873,
+              "weighted": 8.968803903155873,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 12.0,
+              "weighted": -1.2000000000000002,
+              "sign": -1
+            },
+            "Phi": 8.045814216700812
+          },
+          "n_ops": 20,
+          "depth": 4,
+          "n_params": 12,
+          "gate_counts": {
+            "h": 8,
+            "rzz": 4,
+            "rx": 8
+          },
+          "wall_time_s": 427.3371177419999,
+          "mean_iter_s": 28.489141182799994
+        }
+      ],
+      "total_wall_s": 907.3651564769998
+    },
+    "4": {
+      "name": "D1_tfim_scaling",
+      "task": "TFIM_g1_OBC",
+      "n_values": [
+        4,
+        6,
+        8
+      ],
+      "topology_family": "line (nearest-neighbour)",
+      "seed": 4,
+      "rows": [
+        {
+          "n": 4,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -4.472121961752854,
+          "E_exact": -4.7587704831436,
+          "rel_error_vs_exact": 0.06023583663177401,
+          "final_potential": 3.9974344798784065,
+          "delta_nash_final": 0.05000000000000002,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.6666666666666666,
+              "weighted": 0.19999999999999998,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.12596508384063568,
+              "weighted": 0.025193016768127137,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 4.472097518966478,
+              "weighted": 4.472097518966478,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 7.0,
+              "weighted": -0.7000000000000001,
+              "sign": -1
+            },
+            "Phi": 3.9972905357346047
+          },
+          "n_ops": 10,
+          "depth": 3,
+          "n_params": 6,
+          "gate_counts": {
+            "h": 4,
+            "rzz": 2,
+            "rx": 4
+          },
+          "wall_time_s": 149.76375487199994,
+          "mean_iter_s": 9.984250324799996
+        },
+        {
+          "n": 6,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -6.720497589394197,
+          "E_exact": -7.2962298105588,
+          "rel_error_vs_exact": 0.07890818081571757,
+          "final_potential": 6.00951239535093,
+          "delta_nash_final": 0.03749999999999998,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.875,
+              "weighted": 0.2625,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.1326568977536026,
+              "weighted": 0.02653137955072052,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 6.72048064296939,
+              "weighted": 6.72048064296939,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 10.0,
+              "weighted": -1.0,
+              "sign": -1
+            },
+            "Phi": 6.00951202252011
+          },
+          "n_ops": 14,
+          "depth": 4,
+          "n_params": 8,
+          "gate_counts": {
+            "h": 6,
+            "rzz": 3,
+            "rx": 5
+          },
+          "wall_time_s": 269.22496212299984,
+          "mean_iter_s": 17.94833080819999
+        },
+        {
+          "n": 8,
+          "supports_magic": true,
+          "n_iters": 15,
+          "E_nash": -9.20488255601462,
+          "E_exact": -9.8379514474594,
+          "rel_error_vs_exact": 0.0643496661704166,
+          "final_potential": 8.115382269925158,
+          "delta_nash_final": 0.19999999999999996,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.9230769230769231,
+              "weighted": 0.27692307692307694,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.16760931387376152,
+              "weighted": 0.033521862774752303,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 9.204915159760239,
+              "weighted": 9.204915159760239,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 14.0,
+              "weighted": -1.4000000000000001,
+              "sign": -1
+            },
+            "Phi": 8.115360099458067
+          },
+          "n_ops": 21,
+          "depth": 4,
+          "n_params": 13,
+          "gate_counts": {
+            "h": 8,
+            "rzz": 5,
+            "rx": 8
+          },
+          "wall_time_s": 430.0720822860003,
+          "mean_iter_s": 28.67147215240002
+        }
+      ],
+      "total_wall_s": 851.1407631559996
+    }
+  },
+  "timing": {
+    "0": 907.0395775559999,
+    "1": 820.2137760319999,
+    "2": 854.0058389679998,
+    "3": 907.3654588220002,
+    "4": 851.1410487229996
+  },
+  "total_wall_s": 4346.944107397
+}

@@ -1,0 +1,57 @@
+{
+  "name": "E4_topology_ablation",
+  "task": "MaxCut_K4",
+  "n_qubits": 4,
+  "rows": [
+    {
+      "topology": "heavy_hex_4q_subset",
+      "allowed_pair_count": 3,
+      "maxcut_value": 3.499997475478216,
+      "hardware_cost": 2.0,
+      "n_ops": 7,
+      "depth": 2,
+      "n_params": 1,
+      "gate_counts": {
+        "h": 2,
+        "s": 1,
+        "ry": 1,
+        "td": 3
+      },
+      "final_potential": 3.4415019291334326,
+      "wall_time_s": 117.52112973609474
+    },
+    {
+      "topology": "grid_2x2",
+      "allowed_pair_count": 4,
+      "maxcut_value": 3.499849992621125,
+      "hardware_cost": 1.0,
+      "n_ops": 3,
+      "depth": 1,
+      "n_params": 2,
+      "gate_counts": {
+        "h": 1,
+        "ry": 2
+      },
+      "final_potential": 3.620624608945168,
+      "wall_time_s": 98.63872136501595
+    },
+    {
+      "topology": "rydberg_all_to_all_4",
+      "allowed_pair_count": 6,
+      "maxcut_value": 3.499997475478216,
+      "hardware_cost": 2.0,
+      "n_ops": 7,
+      "depth": 2,
+      "n_params": 1,
+      "gate_counts": {
+        "h": 2,
+        "s": 1,
+        "ry": 1,
+        "td": 3
+      },
+      "final_potential": 3.4415019291334326,
+      "wall_time_s": 66.99922917794902
+    }
+  ],
+  "total_wall_s": 283.1722550250124
+}

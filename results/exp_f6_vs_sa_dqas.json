@@ -1,0 +1,177 @@
+{
+  "name": "F6_nash_vs_sa_dqas_matched_budget",
+  "task": "MaxCut_K4",
+  "n_qubits": 4,
+  "shared_weights": {
+    "w_anti_bp": 0.3,
+    "w_anti_sim": 0.2,
+    "w_performance": 1.0,
+    "w_hardware": 0.2
+  },
+  "shared_iters": 15,
+  "rows": [
+    {
+      "topology": "heavy_hex_4q_subset",
+      "n_iters": 15,
+      "nash": {
+        "n_ops": 9,
+        "depth": 3,
+        "n_params": 2,
+        "gate_counts": {
+          "s": 2,
+          "h": 3,
+          "td": 1,
+          "rx": 1,
+          "y": 1,
+          "rz": 1
+        },
+        "f1_eff_dim_ratio": 1.0,
+        "f2_magic_per_qubit": 0.10375962039941065,
+        "f3_performance": 3.8535529998494753,
+        "f4_hardware_cost": 3.0,
+        "phi_nash": 3.574304923929357,
+        "delta_nash": 0.004280518569769555,
+        "delta_nash_per_player": {
+          "anti_bp": 0.0,
+          "anti_sim": 0.004280518569769555,
+          "performance": 0.0,
+          "hardware": 0.0
+        },
+        "wall_time_s": 173.0758622889407
+      },
+      "sa_baseline": {
+        "n_ops": 7,
+        "depth": 2,
+        "n_params": 1,
+        "gate_counts": {
+          "h": 1,
+          "y": 1,
+          "s": 2,
+          "ry": 1,
+          "t": 1,
+          "z": 1
+        },
+        "f1_eff_dim_ratio": 1.0,
+        "f2_magic_per_qubit": 4.544273961962401e-08,
+        "f3_performance": 3.9999999685014895,
+        "f4_hardware_cost": 2.0,
+        "phi_nash": 3.899999977590037,
+        "delta_nash": 0.013787151132520712,
+        "delta_nash_per_player": {
+          "anti_bp": 0.0,
+          "anti_sim": 0.013787151132520712,
+          "performance": 0.0,
+          "hardware": 0.0
+        },
+        "wall_time_s": 49.755019409931265,
+        "total_evaluations": 800
+      }
+    },
+    {
+      "topology": "grid_2x2",
+      "n_iters": 15,
+      "nash": {
+        "n_ops": 2,
+        "depth": 1,
+        "n_params": 2,
+        "gate_counts": {
+          "ry": 2
+        },
+        "f1_eff_dim_ratio": 1.0,
+        "f2_magic_per_qubit": 8.31700550536653e-06,
+        "f3_performance": 3.9999942349932436,
+        "f4_hardware_cost": 1.0,
+        "phi_nash": 4.0999958983943445,
+        "delta_nash": 0.013990693137946878,
+        "delta_nash_per_player": {
+          "anti_bp": 0.0,
+          "anti_sim": 0.013990693137946878,
+          "performance": 0.0,
+          "hardware": 0.0
+        },
+        "wall_time_s": 126.54648024297785
+      },
+      "sa_baseline": {
+        "n_ops": 4,
+        "depth": 2,
+        "n_params": 1,
+        "gate_counts": {
+          "h": 1,
+          "ry": 1,
+          "x": 1,
+          "s": 1
+        },
+        "f1_eff_dim_ratio": 1.0,
+        "f2_magic_per_qubit": 1.8815816630128907e-07,
+        "f3_performance": 3.9999998695786454,
+        "f4_hardware_cost": 2.0,
+        "phi_nash": 3.899999907210279,
+        "delta_nash": 0.013830371286274332,
+        "delta_nash_per_player": {
+          "anti_bp": 0.0,
+          "anti_sim": 0.013830371286274332,
+          "performance": 0.0,
+          "hardware": 0.0
+        },
+        "wall_time_s": 54.011875194031745,
+        "total_evaluations": 792
+      }
+    },
+    {
+      "topology": "rydberg_all_to_all_4",
+      "n_iters": 15,
+      "nash": {
+        "n_ops": 7,
+        "depth": 2,
+        "n_params": 2,
+        "gate_counts": {
+          "h": 2,
+          "rx": 2,
+          "td": 2,
+          "s": 1
+        },
+        "f1_eff_dim_ratio": 1.0,
+        "f2_magic_per_qubit": 0.20752804100285802,
+        "f3_performance": 3.4999934740241745,
+        "f4_hardware_cost": 2.0,
+        "phi_nash": 3.441499082224746,
+        "delta_nash": 0.013809959603133838,
+        "delta_nash_per_player": {
+          "anti_bp": 0.0,
+          "anti_sim": 0.013809959603133838,
+          "performance": 6.43486804330351e-06,
+          "hardware": 0.0
+        },
+        "wall_time_s": 156.95172067789827
+      },
+      "sa_baseline": {
+        "n_ops": 7,
+        "depth": 2,
+        "n_params": 1,
+        "gate_counts": {
+          "h": 1,
+          "y": 1,
+          "s": 2,
+          "ry": 1,
+          "t": 1,
+          "z": 1
+        },
+        "f1_eff_dim_ratio": 1.0,
+        "f2_magic_per_qubit": 4.544273961962401e-08,
+        "f3_performance": 3.9999999685014895,
+        "f4_hardware_cost": 2.0,
+        "phi_nash": 3.899999977590037,
+        "delta_nash": 0.013787151132520712,
+        "delta_nash_per_player": {
+          "anti_bp": 0.0,
+          "anti_sim": 0.013787151132520712,
+          "performance": 0.0,
+          "hardware": 0.0
+        },
+        "wall_time_s": 42.52805129508488,
+        "total_evaluations": 800
+      }
+    }
+  ],
+  "total_wall_s": 616.7916262969375
+}

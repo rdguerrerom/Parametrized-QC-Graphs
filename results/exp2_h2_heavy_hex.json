@@ -1,0 +1,1022 @@
+{
+  "name": "E2_h2_heavy_hex",
+  "topology": "heavy_hex_4q_subset",
+  "n_qubits": 4,
+  "hamiltonian": "H2_STO3G_0.7414A",
+  "references": {
+    "HF_energy_Ha": -1.1167593073964224,
+    "FCI_energy_Ha": -1.1372838344885023
+  },
+  "runs": {
+    "nash_free": {
+      "final_energy_Ha": -1.1167562557317843,
+      "final_potential": 1.116756736400686,
+      "n_ops": 2,
+      "depth": 1,
+      "n_params": 1,
+      "wall_time_s": 400.74842039705254,
+      "history": [
+        {
+          "iteration": 0,
+          "potential": 1.110184172196539,
+          "n_ops": 1,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.30000000000000004,
+          "temperature": 1.0,
+          "elapsed_s": 23.821790477028117,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.006052749280018228,
+              "weighted": 0.0012105498560036456,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1089736223405355,
+              "weighted": 1.1089736223405355,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.110184172196539
+          }
+        },
+        {
+          "iteration": 1,
+          "potential": 1.110184172196539,
+          "n_ops": 2,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.9,
+          "elapsed_s": 34.821553730987944,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.006052749280018228,
+              "weighted": 0.0012105498560036456,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1089736223405355,
+              "weighted": 1.1089736223405355,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.110184172196539
+          }
+        },
+        {
+          "iteration": 2,
+          "potential": 1.110184172196539,
+          "n_ops": 3,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.81,
+          "elapsed_s": 31.83945465204306,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.006052749280018228,
+              "weighted": 0.0012105498560036456,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1089736223405355,
+              "weighted": 1.1089736223405355,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.110184172196539
+          }
+        },
+        {
+          "iteration": 3,
+          "potential": 1.1127881422963317,
+          "n_ops": 3,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.7290000000000001,
+          "elapsed_s": 22.06131897494197,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.0036781248675143243,
+              "weighted": 0.000735624973502865,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1120525173228288,
+              "weighted": 1.1120525173228288,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.1127881422963317
+          }
+        },
+        {
+          "iteration": 4,
+          "potential": 1.1163748450803748,
+          "n_ops": 3,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.6561000000000001,
+          "elapsed_s": 13.171122923959047,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.0003590752777313144,
+              "weighted": 7.181505554626288e-05,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1163030300248284,
+              "weighted": 1.1163030300248284,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.1163748450803748
+          }
+        },
+        {
+          "iteration": 5,
+          "potential": 1.1163748450803748,
+          "n_ops": 2,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.5904900000000002,
+          "elapsed_s": 40.62237250409089,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.0003590752777313144,
+              "weighted": 7.181505554626288e-05,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1163030300248284,
+              "weighted": 1.1163030300248284,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.1163748450803748
+          }
+        },
+        {
+          "iteration": 6,
+          "potential": 1.1163748450803748,
+          "n_ops": 3,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.5314410000000002,
+          "elapsed_s": 28.280711395083927,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.0003590752777313144,
+              "weighted": 7.181505554626288e-05,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1163030300248284,
+              "weighted": 1.1163030300248284,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.1163748450803748
+          }
+        },
+        {
+          "iteration": 7,
+          "potential": 1.116756736400686,
+          "n_ops": 2,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.47829690000000014,
+          "elapsed_s": 12.570355440024287,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 2.4033445093391553e-06,
+              "weighted": 4.806689018678311e-07,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1167562557317843,
+              "weighted": 1.1167562557317843,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.116756736400686
+          }
+        },
+        {
+          "iteration": 8,
+          "potential": 1.116756736400686,
+          "n_ops": 3,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.43046721000000016,
+          "elapsed_s": 25.409873645054176,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 2.4033445093391553e-06,
+              "weighted": 4.806689018678311e-07,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1167562557317843,
+              "weighted": 1.1167562557317843,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.116756736400686
+          }
+        },
+        {
+          "iteration": 9,
+          "potential": 1.116756736400686,
+          "n_ops": 2,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.38742048900000015,
+          "elapsed_s": 32.39382431493141,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 2.4033445093391553e-06,
+              "weighted": 4.806689018678311e-07,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1167562557317843,
+              "weighted": 1.1167562557317843,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.116756736400686
+          }
+        },
+        {
+          "iteration": 10,
+          "potential": 1.116756736400686,
+          "n_ops": 3,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.34867844010000015,
+          "elapsed_s": 34.29834214004222,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 2.4033445093391553e-06,
+              "weighted": 4.806689018678311e-07,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1167562557317843,
+              "weighted": 1.1167562557317843,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.116756736400686
+          }
+        },
+        {
+          "iteration": 11,
+          "potential": 1.116756736400686,
+          "n_ops": 2,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.31381059609000017,
+          "elapsed_s": 32.18405042600352,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 2.4033445093391553e-06,
+              "weighted": 4.806689018678311e-07,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1167562557317843,
+              "weighted": 1.1167562557317843,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.116756736400686
+          }
+        },
+        {
+          "iteration": 12,
+          "potential": 1.116756736400686,
+          "n_ops": 3,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.28242953648100017,
+          "elapsed_s": 14.184835813008249,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 2.4033445093391553e-06,
+              "weighted": 4.806689018678311e-07,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1167562557317843,
+              "weighted": 1.1167562557317843,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.116756736400686
+          }
+        },
+        {
+          "iteration": 13,
+          "potential": 1.116756736400686,
+          "n_ops": 2,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.25418658283290013,
+          "elapsed_s": 28.18489737494383,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 2.4033445093391553e-06,
+              "weighted": 4.806689018678311e-07,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1167562557317843,
+              "weighted": 1.1167562557317843,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.116756736400686
+          }
+        },
+        {
+          "iteration": 14,
+          "potential": 1.116756736400686,
+          "n_ops": 3,
+          "depth": 1,
+          "n_params": 1,
+          "nash_gap": 0.20000000000000004,
+          "temperature": 0.22876792454961012,
+          "elapsed_s": 26.90216377703473,
+          "per_player": {
+            "anti_bp": {
+              "raw": 1.0,
+              "weighted": 0.3,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 2.4033445093391553e-06,
+              "weighted": 4.806689018678311e-07,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.1167562557317843,
+              "weighted": 1.1167562557317843,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 3.0,
+              "weighted": -0.30000000000000004,
+              "sign": -1
+            },
+            "Phi": 1.116756736400686
+          }
+        }
+      ]
+    },
+    "hea_baseline": {
+      "final_energy_Ha": -1.089361928876354,
+      "final_potential": -0.6424081645694211,
+      "n_ops": 14,
+      "depth": 8,
+      "n_params": 14,
+      "wall_time_s": 14.402740840101615,
+      "history": [
+        {
+          "iteration": 0,
+          "potential": -1.1556474907278762,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.06929319839230985,
+          "temperature": 1.0,
+          "elapsed_s": 3.7338688080199063,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.21115573065009655,
+              "weighted": 0.04223114613001931,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 0.5449785059992474,
+              "weighted": 0.5449785059992474,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -1.1556474907278762
+          }
+        },
+        {
+          "iteration": 1,
+          "potential": -1.0541056420964527,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.08556865698641558,
+          "temperature": 0.9,
+          "elapsed_s": 0.7602705649333075,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.2779246984675999,
+              "weighted": 0.05558493969351998,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 0.6331665610671703,
+              "weighted": 0.6331665610671703,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -1.0541056420964527
+          }
+        },
+        {
+          "iteration": 2,
+          "potential": -1.0027160054874158,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.09254260608436304,
+          "temperature": 0.81,
+          "elapsed_s": 0.7745957809966058,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.3119505976414314,
+              "weighted": 0.062390119528286284,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 0.6777510178414408,
+              "weighted": 0.6777510178414408,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -1.0027160054874158
+          }
+        },
+        {
+          "iteration": 3,
+          "potential": -0.9446870694748446,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.08357615293777743,
+          "temperature": 0.7290000000000001,
+          "elapsed_s": 0.7801643409766257,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.36439335729148065,
+              "weighted": 0.07287867145829613,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 0.7252914019240021,
+              "weighted": 0.7252914019240021,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.9446870694748446
+          }
+        },
+        {
+          "iteration": 4,
+          "potential": -0.8762156666553544,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.025583877350319084,
+          "temperature": 0.6561000000000001,
+          "elapsed_s": 0.7817648580530658,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.33249609207009684,
+              "weighted": 0.06649921841401937,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 0.800142257787769,
+              "weighted": 0.800142257787769,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.8762156666553544
+          }
+        },
+        {
+          "iteration": 5,
+          "potential": -0.8488943296964764,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.05910381770734274,
+          "temperature": 0.5904900000000002,
+          "elapsed_s": 0.7621683469042182,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.3537180837469622,
+              "weighted": 0.07074361674939243,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 0.8232191964112741,
+              "weighted": 0.8232191964112741,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.8488943296964764
+          }
+        },
+        {
+          "iteration": 6,
+          "potential": -0.8175915536146907,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.043169022737545304,
+          "temperature": 0.5314410000000002,
+          "elapsed_s": 0.7404022190021351,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.36690047974117956,
+              "weighted": 0.07338009594823591,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 0.8518854932942164,
+              "weighted": 0.8518854932942164,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.8175915536146907
+          }
+        },
+        {
+          "iteration": 7,
+          "potential": -0.7426791232520811,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.021652665269332294,
+          "temperature": 0.47829690000000014,
+          "elapsed_s": 0.7490486539900303,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.29474339782860826,
+              "weighted": 0.058948679565721654,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 0.9412293400393401,
+              "weighted": 0.9412293400393401,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.7426791232520811
+          }
+        },
+        {
+          "iteration": 8,
+          "potential": -0.7295936010764343,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.03671937354360977,
+          "temperature": 0.43046721000000016,
+          "elapsed_s": 0.7821611010003835,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.24313186534159428,
+              "weighted": 0.04862637306831886,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 0.9646371687123898,
+              "weighted": 0.9646371687123898,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.7295936010764343
+          }
+        },
+        {
+          "iteration": 9,
+          "potential": -0.7201590615585154,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.0760306224183569,
+          "temperature": 0.38742048900000015,
+          "elapsed_s": 0.7546103629283607,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.21250608883089508,
+              "weighted": 0.04250121776617902,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 0.9801968635324485,
+              "weighted": 0.9801968635324485,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.7201590615585154
+          }
+        },
+        {
+          "iteration": 10,
+          "potential": -0.6631288486325384,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.026583971820625964,
+          "temperature": 0.34867844010000015,
+          "elapsed_s": 0.7539702389622107,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.12635383234914876,
+              "weighted": 0.025270766469829755,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.0544575277547747,
+              "weighted": 1.0544575277547747,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.6631288486325384
+          }
+        },
+        {
+          "iteration": 11,
+          "potential": -0.660259078599464,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.011901145341852076,
+          "temperature": 0.31381059609000017,
+          "elapsed_s": 0.7508216970600188,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.12287164336388652,
+              "weighted": 0.024574328672777306,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.0580237355849016,
+              "weighted": 1.0580237355849016,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.660259078599464
+          }
+        },
+        {
+          "iteration": 12,
+          "potential": -0.6507819666688823,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.012421487621814942,
+          "temperature": 0.28242953648100017,
+          "elapsed_s": 0.7551836620550603,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.08098003585875894,
+              "weighted": 0.016196007171751788,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.0758791690165088,
+              "weighted": 1.0758791690165088,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.6507819666688823
+          }
+        },
+        {
+          "iteration": 13,
+          "potential": -0.6442681443957745,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.02352046452264127,
+          "temperature": 0.25418658283290013,
+          "elapsed_s": 0.7668892949586734,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.06356263999086618,
+              "weighted": 0.012712527998173238,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.0858764704631951,
+              "weighted": 1.0858764704631951,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.6442681443957745
+          }
+        },
+        {
+          "iteration": 14,
+          "potential": -0.6424081645694211,
+          "n_ops": 14,
+          "depth": 8,
+          "n_params": 14,
+          "nash_gap": 0.016972426879333098,
+          "temperature": 0.22876792454961012,
+          "elapsed_s": 0.755894465954043,
+          "per_player": {
+            "anti_bp": {
+              "raw": 0.8571428571428571,
+              "weighted": 0.2571428571428571,
+              "sign": 1
+            },
+            "anti_sim": {
+              "raw": 0.05543524705683857,
+              "weighted": 0.011087049411367714,
+              "sign": 1
+            },
+            "performance": {
+              "raw": 1.089361928876354,
+              "weighted": 1.089361928876354,
+              "sign": 1
+            },
+            "hardware": {
+              "raw": 20.0,
+              "weighted": -2.0,
+              "sign": -1
+            },
+            "Phi": -0.6424081645694211
+          }
+        }
+      ]
+    }
+  }
+}

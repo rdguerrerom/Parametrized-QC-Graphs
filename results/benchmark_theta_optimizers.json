@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "case": "H2_STO3G_4q_6param_ansatz",
+      "minimize": true,
+      "f_start": 0.5340710325642255,
+      "n_params": 6,
+      "n_steps_cap": 300,
+      "results": {
+        "gd": {
+          "f_final": 0.6319963859931994,
+          "wall_s": 1.1369391130283475,
+          "lr": 0.05,
+          "gap_to_best": 0.48476292140224486
+        },
+        "adam": {
+          "f_final": 1.1167593073954443,
+          "wall_s": 0.2305691170040518,
+          "lr": 0.05,
+          "gap_to_best": 0.0
+        },
+        "nesterov": {
+          "f_final": 1.116759306449551,
+          "wall_s": 0.08078472001943737,
+          "lr": 0.05,
+          "gap_to_best": 9.45893363635264e-10
+        }
+      }
+    },
+    {
+      "case": "MaxCut_K4_8param_ansatz",
+      "minimize": false,
+      "f_start": 2.9405014484732233,
+      "n_params": 10,
+      "n_steps_cap": 300,
+      "results": {
+        "gd": {
+          "f_final": 3.697516096875539,
+          "wall_s": 1.5532863640692085,
+          "lr": 0.05,
+          "gap_to_best": 0.3023238352987887
+        },
+        "adam": {
+          "f_final": 3.6990504300413423,
+          "wall_s": 0.30138396995607764,
+          "lr": 0.05,
+          "gap_to_best": 0.3007895021329854
+        },
+        "nesterov": {
+          "f_final": 3.9998399321743277,
+          "wall_s": 0.1566787150222808,
+          "lr": 0.05,
+          "gap_to_best": 0.0
+        }
+      }
+    },
+    {
+      "case": "TFIM_n6_g1_QAOA_p2",
+      "minimize": true,
+      "f_start": 6.299809777509509,
+      "n_params": 22,
+      "n_steps_cap": 300,
+      "results": {
+        "gd": {
+          "f_final": 7.089250999945247,
+          "wall_s": 2.842280126060359,
+          "lr": 0.03,
+          "gap_to_best": 0.1417592762472708
+        },
+        "adam": {
+          "f_final": 7.231010276192518,
+          "wall_s": 0.4667960670776665,
+          "lr": 0.05,
+          "gap_to_best": 0.0
+        },
+        "nesterov": {
+          "f_final": 6.723275061342553,
+          "wall_s": 0.3021500390022993,
+          "lr": 0.03,
+          "gap_to_best": 0.5077352148499648
+        }
+      }
+    },
+    {
+      "case": "TFIM_n8_g1_QAOA_p2",
+      "minimize": true,
+      "f_start": 8.417074632267848,
+      "n_params": 30,
+      "n_steps_cap": 300,
+      "results": {
+        "gd": {
+          "f_final": 9.51452004458896,
+          "wall_s": 3.0008398429490626,
+          "lr": 0.03,
+          "gap_to_best": 0.22826324498594985
+        },
+        "adam": {
+          "f_final": 9.74278328957491,
+          "wall_s": 0.6085933720460162,
+          "lr": 0.05,
+          "gap_to_best": 0.0
+        },
+        "nesterov": {
+          "f_final": 7.639572777080974,
+          "wall_s": 0.47928806697018445,
+          "lr": 0.03,
+          "gap_to_best": 2.103210512493935
+        }
+      }
+    }
+  ]
+}

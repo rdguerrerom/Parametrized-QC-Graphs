@@ -1,0 +1,350 @@
+{
+  "name": "C3_lih_givens_nash",
+  "description": "Nash structure-search seeded from the 58-gate Givens-doubles ansatz. All moves enabled (append/remove/retype/rewire/perturb-\u03b8) + \u03b8-GD inner loop. Tests whether Nash compresses the ansatz while preserving correlation energy.",
+  "n_qubits": 6,
+  "seed_n_ops": 58,
+  "seed_n_params": 16,
+  "seed_depth": 38,
+  "final_n_ops": 48,
+  "final_depth": 25,
+  "final_n_params": 10,
+  "final_energy_Ha": -7.877459220419305,
+  "final_potential": 33.50853337062313,
+  "fraction_correlation_recovered": 0.9771834558460921,
+  "references": {
+    "HF_energy_Ha": -7.863147386115319,
+    "active_ground_energy_Ha": -7.877793391651295,
+    "FCI_full_energy_Ha": -7.88276116612098
+  },
+  "weights": {
+    "w_anti_bp": 0.3,
+    "w_anti_sim": 0.1,
+    "w_performance": 5.0,
+    "w_hardware": 0.08
+  },
+  "n_iters": 20,
+  "theta_gd_steps": 80,
+  "wall_time_s": 1321.1097388999988,
+  "trajectory": [
+    {
+      "iteration": 0,
+      "potential": 29.290131970110014,
+      "n_ops": 57,
+      "depth": 37,
+      "n_params": 15,
+      "nash_gap": 0.5600000000000005,
+      "temperature": 0.5,
+      "elapsed_s": 96.02956948200153,
+      "per_player_raw": {
+        "anti_bp": 0.2,
+        "anti_sim": 0.012058174431003274,
+        "performance": 7.877785230533382,
+        "hardware": 127.0
+      }
+    },
+    {
+      "iteration": 1,
+      "potential": 29.770212067517832,
+      "n_ops": 56,
+      "depth": 36,
+      "n_params": 15,
+      "nash_gap": 0.47999999999999865,
+      "temperature": 0.45,
+      "elapsed_s": 85.4149893299982,
+      "per_player_raw": {
+        "anti_bp": 0.2,
+        "anti_sim": 0.012800909136907915,
+        "performance": 7.877786395320828,
+        "hardware": 121.0
+      }
+    },
+    {
+      "iteration": 2,
+      "potential": 30.33011814646107,
+      "n_ops": 55,
+      "depth": 34,
+      "n_params": 15,
+      "nash_gap": 0.6400000000000006,
+      "temperature": 0.405,
+      "elapsed_s": 78.12458978700306,
+      "per_player_raw": {
+        "anti_bp": 0.2,
+        "anti_sim": 0.012094612128256438,
+        "performance": 7.8777817370496495,
+        "hardware": 114.0
+      }
+    },
+    {
+      "iteration": 3,
+      "potential": 30.89020615175089,
+      "n_ops": 54,
+      "depth": 32,
+      "n_params": 15,
+      "nash_gap": 0.4800000000000004,
+      "temperature": 0.36450000000000005,
+      "elapsed_s": 82.1230391890058,
+      "per_player_raw": {
+        "anti_bp": 0.2,
+        "anti_sim": 0.0129387130405465,
+        "performance": 7.877782456089368,
+        "hardware": 107.0
+      }
+    },
+    {
+      "iteration": 4,
+      "potential": 30.888395113028267,
+      "n_ops": 55,
+      "depth": 32,
+      "n_params": 15,
+      "nash_gap": 0.4800000000000004,
+      "temperature": 0.32805000000000006,
+      "elapsed_s": 75.67894449100277,
+      "per_player_raw": {
+        "anti_bp": 0.2,
+        "anti_sim": 0.01159918289065634,
+        "performance": 7.877447038947841,
+        "hardware": 107.0
+      }
+    },
+    {
+      "iteration": 5,
+      "potential": 30.96850198748383,
+      "n_ops": 54,
+      "depth": 31,
+      "n_params": 15,
+      "nash_gap": 0.5600000000000005,
+      "temperature": 0.2952450000000001,
+      "elapsed_s": 71.56426381899655,
+      "per_player_raw": {
+        "anti_bp": 0.2,
+        "anti_sim": 0.01273156036420694,
+        "performance": 7.877445766289482,
+        "hardware": 106.0
+      }
+    },
+    {
+      "iteration": 6,
+      "potential": 31.052700052069355,
+      "n_ops": 53,
+      "depth": 30,
+      "n_params": 14,
+      "nash_gap": 0.4800000000000004,
+      "temperature": 0.2657205000000001,
+      "elapsed_s": 67.53550791100133,
+      "per_player_raw": {
+        "anti_bp": 0.21428571428571427,
+        "anti_sim": 0.01170649811544708,
+        "performance": 7.877448737594419,
+        "hardware": 105.0
+      }
+    },
+    {
+      "iteration": 7,
+      "potential": 31.532787456850997,
+      "n_ops": 52,
+      "depth": 29,
+      "n_params": 14,
+      "nash_gap": 0.39999999999999947,
+      "temperature": 0.23914845000000007,
+      "elapsed_s": 61.90785248000611,
+      "per_player_raw": {
+        "anti_bp": 0.21428571428571427,
+        "anti_sim": 0.012533808474629532,
+        "performance": 7.877449672343565,
+        "hardware": 99.0
+      }
+    },
+    {
+      "iteration": 8,
+      "potential": 31.862160682600067,
+      "n_ops": 52,
+      "depth": 29,
+      "n_params": 14,
+      "nash_gap": 0.5600000000000005,
+      "temperature": 0.21523360500000008,
+      "elapsed_s": 60.878138508996926,
+      "per_player_raw": {
+        "anti_bp": 0.21428571428571427,
+        "anti_sim": 0.0007025215908957725,
+        "performance": 7.863560943231053,
+        "hardware": 94.0
+      }
+    },
+    {
+      "iteration": 9,
+      "potential": 32.34214668892086,
+      "n_ops": 51,
+      "depth": 28,
+      "n_params": 14,
+      "nash_gap": 0.47999999999999954,
+      "temperature": 0.19371024450000007,
+      "elapsed_s": 60.45487638399936,
+      "per_player_raw": {
+        "anti_bp": 0.21428571428571427,
+        "anti_sim": 0.0005199798052553131,
+        "performance": 7.863561795330925,
+        "hardware": 88.0
+      }
+    },
+    {
+      "iteration": 10,
+      "potential": 32.342162193401435,
+      "n_ops": 52,
+      "depth": 28,
+      "n_params": 14,
+      "nash_gap": 0.5599999999999996,
+      "temperature": 0.17433922005000008,
+      "elapsed_s": 54.31445916899975,
+      "per_player_raw": {
+        "anti_bp": 0.21428571428571427,
+        "anti_sim": 0.0007166457972990511,
+        "performance": 7.863560962907197,
+        "hardware": 88.0
+      }
+    },
+    {
+      "iteration": 11,
+      "potential": 32.73995589970168,
+      "n_ops": 52,
+      "depth": 28,
+      "n_params": 14,
+      "nash_gap": 0.4800000000000004,
+      "temperature": 0.15690529804500009,
+      "elapsed_s": 62.39624720699794,
+      "per_player_raw": {
+        "anti_bp": 0.21428571428571427,
+        "anti_sim": 1.4522647550397106e-05,
+        "performance": 7.863133746630242,
+        "hardware": 83.0
+      }
+    },
+    {
+      "iteration": 12,
+      "potential": 32.74493426617038,
+      "n_ops": 51,
+      "depth": 28,
+      "n_params": 13,
+      "nash_gap": 0.08000000000000007,
+      "temperature": 0.14121476824050008,
+      "elapsed_s": 60.98041276299773,
+      "per_player_raw": {
+        "anti_bp": 0.23076923076923078,
+        "anti_sim": 7.441382549781637e-06,
+        "performance": 7.863140550560271,
+        "hardware": 83.0
+      }
+    },
+    {
+      "iteration": 13,
+      "potential": 32.761422173216715,
+      "n_ops": 52,
+      "depth": 28,
+      "n_params": 14,
+      "nash_gap": 0.40000000000000036,
+      "temperature": 0.12709329141645007,
+      "elapsed_s": 59.90506822299358,
+      "per_player_raw": {
+        "anti_bp": 0.2857142857142857,
+        "anti_sim": 6.48230004138622e-06,
+        "performance": 7.863141447854486,
+        "hardware": 83.0
+      }
+    },
+    {
+      "iteration": 14,
+      "potential": 32.84802586620076,
+      "n_ops": 51,
+      "depth": 27,
+      "n_params": 13,
+      "nash_gap": 0.3200000000000003,
+      "temperature": 0.11438396227480506,
+      "elapsed_s": 60.40255256800447,
+      "per_player_raw": {
+        "anti_bp": 0.3076923076923077,
+        "anti_sim": 4.1628960722612865e-06,
+        "performance": 7.863143551520691,
+        "hardware": 82.0
+      }
+    },
+    {
+      "iteration": 15,
+      "potential": 32.93571369170124,
+      "n_ops": 50,
+      "depth": 26,
+      "n_params": 12,
+      "nash_gap": 0.4800000000000004,
+      "temperature": 0.10294556604732455,
+      "elapsed_s": 62.416132430997095,
+      "per_player_raw": {
+        "anti_bp": 0.3333333333333333,
+        "anti_sim": 5.1156436345314804e-06,
+        "performance": 7.8631426360273755,
+        "hardware": 81.0
+      }
+    },
+    {
+      "iteration": 16,
+      "potential": 33.006787962915595,
+      "n_ops": 50,
+      "depth": 26,
+      "n_params": 12,
+      "nash_gap": 0.6400000000000006,
+      "temperature": 0.1,
+      "elapsed_s": 55.569971668002836,
+      "per_player_raw": {
+        "anti_bp": 0.3333333333333333,
+        "anti_sim": 0.012289371918890514,
+        "performance": 7.877111805144741,
+        "hardware": 81.0
+      }
+    },
+    {
+      "iteration": 17,
+      "potential": 33.40857117665558,
+      "n_ops": 50,
+      "depth": 26,
+      "n_params": 12,
+      "nash_gap": 0.40000000000000036,
+      "temperature": 0.1,
+      "elapsed_s": 57.91181851100555,
+      "per_player_raw": {
+        "anti_bp": 0.3333333333333333,
+        "anti_sim": 0.012606748821819532,
+        "performance": 7.877462100354679,
+        "hardware": 76.0
+      }
+    },
+    {
+      "iteration": 18,
+      "potential": 33.41766258365349,
+      "n_ops": 49,
+      "depth": 26,
+      "n_params": 11,
+      "nash_gap": 0.6399999999999997,
+      "temperature": 0.1,
+      "elapsed_s": 52.48009049299435,
+      "per_player_raw": {
+        "anti_bp": 0.36363636363636365,
+        "anti_sim": 0.012403337859855717,
+        "performance": 7.877466268155318,
+        "hardware": 76.0
+      }
+    },
+    {
+      "iteration": 19,
+      "potential": 33.50853337062313,
+      "n_ops": 48,
+      "depth": 25,
+      "n_params": 10,
+      "nash_gap": 0.08000000000000007,
+      "temperature": 0.1,
+      "elapsed_s": 55.016916956003115,
+      "per_player_raw": {
+        "anti_bp": 0.4,
+        "anti_sim": 0.012372685266021899,
+        "performance": 7.877459220419305,
+        "hardware": 75.0
+      }
+    }
+  ]
+}

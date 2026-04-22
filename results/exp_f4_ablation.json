@@ -1,0 +1,128 @@
+{
+  "name": "F4_player_ablation",
+  "task": "MaxCut_K4",
+  "topology": "grid_2x2",
+  "n_qubits": 4,
+  "n_iters": 15,
+  "reference_roster": "full_four_player",
+  "rosters": {
+    "full_four_player": {
+      "n_ops": 3,
+      "depth": 1,
+      "n_params": 2,
+      "gate_counts": {
+        "h": 1,
+        "ry": 2
+      },
+      "f1_eff_dim_ratio": 1.0,
+      "f2_magic_per_qubit": 0.10387308162021477,
+      "f3_performance": 3.499849992621125,
+      "f4_hardware_cost": 1.0,
+      "phi_full_game": 3.620624608945168,
+      "delta_nash_full_game": 0.01446231528236848,
+      "wall_time_s": 130.8524004489882,
+      "weights": {
+        "w_anti_bp": 0.3,
+        "w_anti_sim": 0.2,
+        "w_performance": 1.0,
+        "w_hardware": 0.2
+      }
+    },
+    "no_anti_bp": {
+      "n_ops": 6,
+      "depth": 2,
+      "n_params": 3,
+      "gate_counts": {
+        "s": 2,
+        "h": 1,
+        "ry": 2,
+        "rz": 1
+      },
+      "f1_eff_dim_ratio": 0.6666666666666666,
+      "f2_magic_per_qubit": 0.0002730835280365634,
+      "f3_performance": 3.999810627468916,
+      "f4_hardware_cost": 2.0,
+      "phi_full_game": 3.7998652441745233,
+      "delta_nash_full_game": 0.1,
+      "wall_time_s": 143.44471512793098,
+      "weights": {
+        "w_anti_bp": 0.0,
+        "w_anti_sim": 0.2,
+        "w_performance": 1.0,
+        "w_hardware": 0.2
+      }
+    },
+    "no_anti_sim": {
+      "n_ops": 2,
+      "depth": 1,
+      "n_params": 1,
+      "gate_counts": {
+        "rx": 1,
+        "x": 1
+      },
+      "f1_eff_dim_ratio": 1.0,
+      "f2_magic_per_qubit": 3.463553345137137e-05,
+      "f3_performance": 3.9999759907482155,
+      "f4_hardware_cost": 1.0,
+      "phi_full_game": 4.099982917854906,
+      "delta_nash_full_game": 0.01418567941363627,
+      "wall_time_s": 113.80266690906137,
+      "weights": {
+        "w_anti_bp": 0.3,
+        "w_anti_sim": 0.0,
+        "w_performance": 1.0,
+        "w_hardware": 0.2
+      }
+    },
+    "no_performance": {
+      "n_ops": 4,
+      "depth": 1,
+      "n_params": 2,
+      "gate_counts": {
+        "ry": 2,
+        "h": 2
+      },
+      "f1_eff_dim_ratio": 1.0,
+      "f2_magic_per_qubit": 0.11939642882683905,
+      "f3_performance": 3.0742560974383446,
+      "f4_hardware_cost": 1.0,
+      "phi_full_game": 3.198135383203712,
+      "delta_nash_full_game": 0.2780819193957256,
+      "wall_time_s": 122.04445819603279,
+      "weights": {
+        "w_anti_bp": 0.3,
+        "w_anti_sim": 0.2,
+        "w_performance": 0.0,
+        "w_hardware": 0.2
+      }
+    },
+    "no_hardware": {
+      "n_ops": 10,
+      "depth": 4,
+      "n_params": 5,
+      "gate_counts": {
+        "h": 3,
+        "s": 1,
+        "ry": 2,
+        "ryy": 1,
+        "rzz": 1,
+        "td": 1,
+        "rx": 1
+      },
+      "f1_eff_dim_ratio": 1.0,
+      "f2_magic_per_qubit": 0.3244836162067202,
+      "f3_performance": 3.820034805765012,
+      "f4_hardware_cost": 8.0,
+      "phi_full_game": 2.5849315290063557,
+      "delta_nash_full_game": 0.3999999999999999,
+      "wall_time_s": 266.94710533099715,
+      "weights": {
+        "w_anti_bp": 0.3,
+        "w_anti_sim": 0.2,
+        "w_performance": 1.0,
+        "w_hardware": 0.0
+      }
+    }
+  },
+  "total_wall_s": 790.1950836280594
+}

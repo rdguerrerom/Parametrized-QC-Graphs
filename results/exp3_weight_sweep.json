@@ -1,0 +1,302 @@
+{
+  "name": "E3_weight_sweep",
+  "task": "MaxCut_K4",
+  "topology": "rydberg_4q_all2all",
+  "n_qubits": 4,
+  "n_iters": 12,
+  "rows": [
+    {
+      "w_anti_bp": 0.0,
+      "w_anti_sim": 0.0,
+      "final_potential": 3.399426981525241,
+      "maxcut_value": 3.4994269815252412,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.0008252679769330168,
+      "hardware_cost": 1.0,
+      "n_ops": 3,
+      "depth": 1,
+      "n_params": 1,
+      "gate_counts": {
+        "h": 2,
+        "ry": 1
+      },
+      "wall_time_s": 72.0617143700365
+    },
+    {
+      "w_anti_bp": 0.0,
+      "w_anti_sim": 0.3,
+      "final_potential": 3.3932060971267943,
+      "maxcut_value": 3.4999065785096937,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.31099839539033663,
+      "hardware_cost": 2.0,
+      "n_ops": 6,
+      "depth": 2,
+      "n_params": 2,
+      "gate_counts": {
+        "h": 2,
+        "t": 2,
+        "ry": 1,
+        "rxx": 1
+      },
+      "wall_time_s": 98.57333231996745
+    },
+    {
+      "w_anti_bp": 0.0,
+      "w_anti_sim": 1.0,
+      "final_potential": 3.525101986835278,
+      "maxcut_value": 3.4804936254791548,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.24460836135612352,
+      "hardware_cost": 2.0,
+      "n_ops": 6,
+      "depth": 2,
+      "n_params": 3,
+      "gate_counts": {
+        "h": 2,
+        "ry": 2,
+        "td": 1,
+        "rz": 1
+      },
+      "wall_time_s": 104.02939500799403
+    },
+    {
+      "w_anti_bp": 0.0,
+      "w_anti_sim": 3.0,
+      "final_potential": 4.235343683265171,
+      "maxcut_value": 3.3008237095591033,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.47817332456868905,
+      "hardware_cost": 5.0,
+      "n_ops": 9,
+      "depth": 3,
+      "n_params": 4,
+      "gate_counts": {
+        "h": 3,
+        "rzz": 1,
+        "t": 2,
+        "rx": 1,
+        "ry": 2
+      },
+      "wall_time_s": 152.78241426707245
+    },
+    {
+      "w_anti_bp": 0.3,
+      "w_anti_sim": 0.0,
+      "final_potential": 3.6999999999999993,
+      "maxcut_value": 3.4999999999999996,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 6.795484317581307e-08,
+      "hardware_cost": 1.0,
+      "n_ops": 3,
+      "depth": 1,
+      "n_params": 1,
+      "gate_counts": {
+        "rx": 1,
+        "h": 1,
+        "x": 1
+      },
+      "wall_time_s": 92.80023285304196
+    },
+    {
+      "w_anti_bp": 0.3,
+      "w_anti_sim": 0.3,
+      "final_potential": 4.061597130993937,
+      "maxcut_value": 3.9386755197718974,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.07640537074013257,
+      "hardware_cost": 2.0,
+      "n_ops": 4,
+      "depth": 2,
+      "n_params": 3,
+      "gate_counts": {
+        "h": 1,
+        "ry": 3
+      },
+      "wall_time_s": 116.05664822494145
+    },
+    {
+      "w_anti_bp": 0.3,
+      "w_anti_sim": 1.0,
+      "final_potential": 3.7179030634999757,
+      "maxcut_value": 3.4551085734749276,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.2627944900250475,
+      "hardware_cost": 3.0,
+      "n_ops": 6,
+      "depth": 3,
+      "n_params": 1,
+      "gate_counts": {
+        "h": 2,
+        "ry": 1,
+        "td": 2,
+        "z": 1
+      },
+      "wall_time_s": 56.54117091500666
+    },
+    {
+      "w_anti_bp": 0.3,
+      "w_anti_sim": 3.0,
+      "final_potential": 4.655004678997241,
+      "maxcut_value": 3.3229927175675282,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.4106706538099041,
+      "hardware_cost": 2.0,
+      "n_ops": 8,
+      "depth": 2,
+      "n_params": 2,
+      "gate_counts": {
+        "h": 2,
+        "s": 1,
+        "td": 2,
+        "rx": 2,
+        "t": 1
+      },
+      "wall_time_s": 166.48529801308177
+    },
+    {
+      "w_anti_bp": 1.0,
+      "w_anti_sim": 0.0,
+      "final_potential": 4.699870890117864,
+      "maxcut_value": 3.9998708901178635,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 4.656203719761772e-05,
+      "hardware_cost": 3.0,
+      "n_ops": 1,
+      "depth": 1,
+      "n_params": 1,
+      "gate_counts": {
+        "ryy": 1
+      },
+      "wall_time_s": 87.4323623169912
+    },
+    {
+      "w_anti_bp": 1.0,
+      "w_anti_sim": 0.3,
+      "final_potential": 4.761597130993937,
+      "maxcut_value": 3.9386755197718974,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.07640537074013257,
+      "hardware_cost": 2.0,
+      "n_ops": 4,
+      "depth": 2,
+      "n_params": 3,
+      "gate_counts": {
+        "h": 1,
+        "ry": 3
+      },
+      "wall_time_s": 99.09487309399992
+    },
+    {
+      "w_anti_bp": 1.0,
+      "w_anti_sim": 1.0,
+      "final_potential": 4.417903063499975,
+      "maxcut_value": 3.4551085734749276,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.2627944900250475,
+      "hardware_cost": 3.0,
+      "n_ops": 6,
+      "depth": 3,
+      "n_params": 1,
+      "gate_counts": {
+        "h": 2,
+        "ry": 1,
+        "td": 2,
+        "z": 1
+      },
+      "wall_time_s": 54.64923075400293
+    },
+    {
+      "w_anti_bp": 1.0,
+      "w_anti_sim": 3.0,
+      "final_potential": 5.181385610648921,
+      "maxcut_value": 3.3538431097559953,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.34251416696430875,
+      "hardware_cost": 2.0,
+      "n_ops": 6,
+      "depth": 2,
+      "n_params": 2,
+      "gate_counts": {
+        "h": 2,
+        "ry": 1,
+        "rz": 1,
+        "t": 2
+      },
+      "wall_time_s": 123.41795001307037
+    },
+    {
+      "w_anti_bp": 3.0,
+      "w_anti_sim": 0.0,
+      "final_potential": 6.699998982463275,
+      "maxcut_value": 3.999998982463275,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 3.669985168241794e-07,
+      "hardware_cost": 3.0,
+      "n_ops": 1,
+      "depth": 1,
+      "n_params": 1,
+      "gate_counts": {
+        "ryy": 1
+      },
+      "wall_time_s": 81.12144509400241
+    },
+    {
+      "w_anti_bp": 3.0,
+      "w_anti_sim": 0.3,
+      "final_potential": 6.761597130993937,
+      "maxcut_value": 3.9386755197718974,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.07640537074013257,
+      "hardware_cost": 2.0,
+      "n_ops": 4,
+      "depth": 2,
+      "n_params": 3,
+      "gate_counts": {
+        "h": 1,
+        "ry": 3
+      },
+      "wall_time_s": 96.09119421103969
+    },
+    {
+      "w_anti_bp": 3.0,
+      "w_anti_sim": 1.0,
+      "final_potential": 6.417903063499975,
+      "maxcut_value": 3.4551085734749276,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.2627944900250475,
+      "hardware_cost": 3.0,
+      "n_ops": 6,
+      "depth": 3,
+      "n_params": 1,
+      "gate_counts": {
+        "h": 2,
+        "ry": 1,
+        "td": 2,
+        "z": 1
+      },
+      "wall_time_s": 58.02437504299451
+    },
+    {
+      "w_anti_bp": 3.0,
+      "w_anti_sim": 3.0,
+      "final_potential": 7.169177951033817,
+      "maxcut_value": 3.4665897768627607,
+      "qfim_eff_dim_ratio": 1.0,
+      "magic_per_qubit": 0.33419605805701874,
+      "hardware_cost": 3.0,
+      "n_ops": 7,
+      "depth": 3,
+      "n_params": 3,
+      "gate_counts": {
+        "h": 2,
+        "s": 1,
+        "ry": 2,
+        "rz": 1,
+        "t": 1
+      },
+      "wall_time_s": 138.16356413904577
+    }
+  ],
+  "total_wall_s": 1597.463579426054
+}

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pqcgraphs"
+version = "0.1.0"
+description = "Nash-equilibrium architecture search for parameterized quantum circuits over DAG topologies"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Ruben Dario Guerrero" }]
+
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "networkx>=3.0",
+    "matplotlib>=3.7",
+    "tensorcircuit-ng>=1.2",
+    "jax>=0.4",
+    "jaxlib>=0.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "stim>=1.13"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

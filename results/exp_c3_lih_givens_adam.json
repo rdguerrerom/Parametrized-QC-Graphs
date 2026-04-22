@@ -1,0 +1,20 @@
+{
+  "name": "C3_lih_givens_doubles_adam",
+  "description": "Minimal chemistry-aware ansatz: HF + 2 paired DoubleExcitation gates (HOMO\u2192LUMO1 and HOMO\u2192LUMO2) on qubits (0,1,2,3) and (0,1,4,5). PennyLane-verified decomposition, 58 gates, 16 independent \u03b8 parameters. Adam \u03b8-gradient descent, 500 steps, lr=0.05.",
+  "n_qubits": 6,
+  "n_ops": 58,
+  "n_params": 16,
+  "depth": 38,
+  "optimizer": "Adam",
+  "lr": 0.05,
+  "n_steps": 500,
+  "initial_energy_Ha": -7.8733547292487085,
+  "final_energy_Ha": -7.877793149815832,
+  "fraction_correlation_recovered": 0.9999834879577115,
+  "references": {
+    "HF_energy_Ha": -7.863147386115319,
+    "active_ground_energy_Ha": -7.877793391651295,
+    "FCI_full_energy_Ha": -7.88276116612098
+  },
+  "wall_time_s": 0.6285566559963627
+}
