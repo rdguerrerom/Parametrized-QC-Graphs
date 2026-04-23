@@ -240,3 +240,7 @@ local/
 docs/Roadmap-on-Variational-Quantum-Algorithms-and-Quantum-Machine-Learning.pdf
 docs/StabilizerGame*.pdf
 docs/Roadmap*.pdf
+
+# Strategic / planning documents kept local only.
+docs/manuscript_evidence_plan.md
+docs/*_evidence_plan.md
