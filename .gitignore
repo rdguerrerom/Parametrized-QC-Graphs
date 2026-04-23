@@ -224,3 +224,6 @@ results/.multi_seed_tmp_*.json
 # Local Overleaf bundle — pushed to arXiv via Overleaf's toolchain,
 # not maintained inside the public repo.
 Overleaf/
+
+# Local agent-context file (Claude Code instructions); not public.
+CLAUDE.md
