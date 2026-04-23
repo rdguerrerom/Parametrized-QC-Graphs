@@ -220,3 +220,7 @@ __marimo__/
 .claude/
 logs/
 results/.multi_seed_tmp_*.json
+
+# Local Overleaf bundle — pushed to arXiv via Overleaf's toolchain,
+# not maintained inside the public repo.
+Overleaf/
