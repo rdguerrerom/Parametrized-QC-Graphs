@@ -146,10 +146,6 @@ License 2.0** (see `LICENSE`). MPL-2.0 is a file-level copyleft license:
 modifications to MPL-licensed source files must remain under MPL, while
 new files in a combined work may carry any compatible license.
 
-The manuscript text in `docs/manuscript.{tex,pdf}` and `Overleaf/` is
-covered by the arXiv non-exclusive distribution license (pre-print) and
-by CC BY 4.0 upon publication in *Quantum*.
-
 ## Author
 
 Ruben Dario Guerrero — NeuroTechNet S.A.S., Bogotá, Colombia
