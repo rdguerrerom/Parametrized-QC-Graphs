@@ -227,3 +227,9 @@ Overleaf/
 
 # Local agent-context file (Claude Code instructions); not public.
 CLAUDE.md
+
+# Local-only work-in-progress area (per-package scratch, draft manuscripts,
+# intermediate analyses). Every file under local/ stays off `main` and off
+# `origin/main`. When a WIP package's paper is ready, the code + results
+# + manuscript graduate into the tracked tree via a normal commit on main.
+local/
