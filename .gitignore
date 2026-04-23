@@ -233,3 +233,10 @@ CLAUDE.md
 # `origin/main`. When a WIP package's paper is ready, the code + results
 # + manuscript graduate into the tracked tree via a normal commit on main.
 local/
+
+# Confidential reference PDFs must never enter the tracked tree.
+# Keep private copies in local/confidential/ (itself already gitignored
+# via the local/ rule above).
+docs/Roadmap-on-Variational-Quantum-Algorithms-and-Quantum-Machine-Learning.pdf
+docs/StabilizerGame*.pdf
+docs/Roadmap*.pdf
