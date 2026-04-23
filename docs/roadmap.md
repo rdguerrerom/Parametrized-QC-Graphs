@@ -15,7 +15,9 @@ follow-ups, with cross-citation intended.
 
 This roadmap is public; each work package below is pursued locally
 and becomes visible in this repository only when the corresponding
-paper is submitted.
+paper is submitted. The branch and squash-merge conventions that
+enforce this "append-only `main`" discipline are documented in
+[`CONTRIBUTING.md`](../CONTRIBUTING.md).
 
 ## Published / submitted
 
